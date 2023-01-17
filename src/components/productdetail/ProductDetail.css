@@ -1,0 +1,122 @@
+span.price-area {
+    background: #eeeef0;
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.small, small {
+    font-size: .875em;
+}
+select.form-control {
+    border-radius: 10px;
+    /* border: 1px solid #EEEEF0; */
+}
+.product-details select.form-control{
+    height: 58px;
+}
+.cart-quilty-incremnt {
+    margin-bottom: 25px;
+}
+button#increment, button#decrement {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: 4px;
+}
+input#quantity {
+    text-align: center;
+    border: none;
+    width: 30px;
+}
+.cart-quilty-incremnt svg{
+    color: #000;
+}
+button#increment:hover, button#decrement:hover {
+    color: white;
+    background: #531977;
+}
+button#increment:hover svg, button#decrement:hover svg{
+    color: #fff;
+}
+.product_price_label{
+    font-size: 20px;
+}
+.product-title-price h3{
+    width: 70%;
+}
+
+/* modal css */
+.cart-modal .modal-dialog{
+    position: fixed;
+    margin: auto;
+    width: 450px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+.cart-modal.fade .modal-dialog {
+    right: -320px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+.cart-modal  .modal-content{
+    height: 100%;
+}
+.cart-modal.modal.show .modal-dialog{
+    right: 0;
+}
+.cart-modal .modal-header{
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+}
+.cart-modal .modal-body{
+    padding-top: 0;
+}
+.cart-modal .card-body {
+    padding: 1.25rem 0;
+}
+
+@media(max-width: 1440px){
+    .product-title-price h3 {
+        width: 60%;
+    }
+    .cart-modal .card-body {
+        padding: 0.3rem 0;
+    }
+}
+@media(max-width: 575px){
+    .cart-modal .modal-dialog{
+        width: 100%;
+    }
+    .cart-modal h4{
+        font-size: 20px;
+    }
+    .product-title-price h3 {
+        width: 100%;
+    }
+    .product-title-price{
+        flex-direction: column !important;
+    }
+    .product_price_label {
+        font-size: 18px;
+    }
+    .product-detail-page{
+        overflow: hidden;
+    }
+}
+@media(max-width: 375px){
+    .product_price_label {
+        font-size: 16px;
+    }
+    .cart-modal .modal-body{
+        padding: 0;
+    }
+}
+.product-long-description-area img, .product-details-bottom-section img {
+    max-width: 100%;
+}

@@ -1,0 +1,124 @@
+.faqs {
+  background: #F0F3F5 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 1;
+  padding: 0 114px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faqs {
+    padding: 100px 80px;
+}
+.faqs-accordion .accordion-item .accordion-body,
+.faqs-accordion button {
+  padding: 9px 16px;
+}
+.faqs-accordion .accordion-item .accordion-body p {
+  margin-bottom: 0;
+}
+.faqs-text h2 {
+  letter-spacing: 0px;
+  color: #14061D;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-bottom: 30px;
+}
+.faqs .card-header {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  background: none;
+  box-shadow: none;
+  padding: 9px 16px;
+  border: none;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.faqs .card-header h3{
+  font-size: 20px;
+  margin-bottom: 8px;
+  letter-spacing: 0px;
+  color: #14061D;
+  font-weight: bold;
+}
+.faqs .card-body{
+  padding: 9px 16px;
+}
+.faqs .card-body p {
+  margin-bottom: 0;
+}
+.faqs .card-body p {
+  letter-spacing: 0px;
+  color: #534D57;
+  opacity: 1;
+  font-size: 16px;
+}
+.faqs .faqs-accordion .card{
+  background: transparent;
+  border: none;
+  margin-bottom: 5px;
+}
+@media(max-width: 1440px){
+  .faqs {
+    margin-bottom: 33px !important;
+    padding: 100px 60px;
+  }
+  .faqs-text h2 {
+    font-size: 50px;
+    margin-bottom: 27px;
+  }
+  .faqs-accordion .accordion-item h3 button {
+    font-size: 19px;
+    margin-bottom: 7px;
+  }
+  .faqs .faqs-img{
+    width: 350px;
+  }
+  .faqs-text h2 {
+    font-size: 40px;
+    margin-bottom: 22px;
+  }
+  .faqs-accordion .accordion-item .accordion-body,
+  .faqs-accordion button {
+    padding: 8px 13px;
+  }
+}
+@media(max-width: 991px){
+  .faqs {
+    padding: 50px 10px;
+    min-height: auto;
+    margin-bottom: 20px;
+  }
+  .faqs-text h2 {
+    font-size: 32px;
+    margin-bottom: 18px;
+  }
+  .faqs-accordion .accordion-item h3 button {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+}
+@media(max-width: 767px){
+  .faqs .faqs-img{
+    width: 200px;
+  }
+  .faqs .faqs-img img{
+    width: 100%;
+    height: 100%;
+  }
+  .faqs{
+    align-items: flex-start;
+  }
+  .faqs .card-header h3 {
+    font-size: 18px;
+  }
+  .faqs .faqs-text{
+    margin-top: 30px;
+  }
+  .faqs {
+    min-height: auto;
+  }
+}

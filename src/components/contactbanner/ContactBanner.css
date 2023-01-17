@@ -1,0 +1,19 @@
+.contact-us-banner .banner-img img {
+    position: absolute;
+    right: 0;
+    top: -200px;
+    bottom: 0;
+  }
+  .contact-us-banner {
+    background: #14061D 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 1;
+    padding: 0 0;
+    margin-bottom: 50px;
+    margin-bottom: 126px;
+    position: relative;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

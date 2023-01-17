@@ -1,0 +1,183 @@
+.card-header {
+    background: #F0F3F5;
+    color: #212529;
+}
+.cart-wrapper .card-header{
+    padding: 0 0 20px 0;
+}
+.cart-wrapper .main-btn{
+    font-size: 16px;
+    padding: 13px 20px;
+}
+.cart-wrapper .quantity-price-wrapper h6{
+    color: #212529;
+}
+.card-title button.btn.btn-primary.btn-sm.btn-block {
+    background: #efefef;
+    color: #333;
+    width: fit-content;
+    float: right;
+}
+.quantity-price-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 20px;
+}
+.dlt-btn-wrap svg{
+    color: #000;
+}
+.text-right {
+    text-align: right;
+}
+.quantity-price-wrapper .quantity-div {
+    margin: 0 10px;
+}
+.quantity-div {
+    display: inline-flex;
+}
+.cart-wrapper .cart-quilty-incremnt svg {
+    color: #14061D;
+}
+.cart-wrapper .card-title {
+    margin-bottom: 0;
+}
+.cart-wrapper .cart-quilty-incremnt button {
+    outline: none;
+    background: #fff;
+    border: 1px solid #c7c7c7;
+    border-radius: 0;
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+.cart-wrapper .quantity-div input {
+    text-align: center;
+    background-color: white !important;
+    border: 1px solid #c7c7c7;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+    width: 45px;
+    height: 35px;
+    padding: 6px 0px;
+}
+button.decrement {
+    border-radius: 20px 0px 0px 20px;
+}
+button.increment {
+    border-radius: 0px 20px 20px 0px;
+}
+.quantity-price-wrapper .btn-link {
+    padding: 0;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+#checkoutButton {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#checkoutButton button.btn.btn-success.btn-block {
+    width: 100%;
+    background: #531977;
+    border-color: #531977;
+}
+#checkoutButton button.btn.btn-success.btn-block:hover:focus{
+    box-shadow: none;
+    background: #14061D;
+    border-color: #14061D;
+}
+#checkoutButton button.btn.btn-success.btn-block:hover{
+    background: #14061D;
+    border-color: #14061D;
+}
+.cart-modal .cart-wrapper .card-header{
+    background: transparent;
+    border: none;
+}
+.cart-modal .card{
+    border: none;
+}
+.cart-product-box{
+    max-height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+.cart-product-box .product-name{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#checkoutButton a{
+    text-decoration: none;
+    width: 100%;
+}
+.cart-modal .card-footer{
+    padding: 20px 10px;
+}
+.cart-wrapper .product-img-wrap a{
+    display: inline-block;
+}
+.cart-wrapper .product-img-wrap a img{
+    width: 50px;
+}
+@media(max-width: 1680px){
+    .cart-modal .card-footer h6, .cart-product-box .product-name, .cart-wrapper .quantity-price-wrapper h6,
+    .cart-wrapper .quantity-div input,.cart-modal #couponArea h6,.cart-modal #couponArea .form-control,.cart-modal #couponArea button,
+    #checkoutButton button.btn.btn-success.btn-block{
+        font-size: 14px;
+    }
+    .cart-modal .modal-header h4{
+        font-size: 20px;
+    }
+    .cart-wrapper .cart-quilty-incremnt button{
+        font-size: 12px;
+    }
+    .cart-modal .modal-header{
+        padding: 0.5rem 1rem;
+    }
+    .cart-product-box {
+        max-height: 290px;
+    }
+}
+
+
+@media(max-width: 767px){
+    .cart-modal .modal-dialog{
+        width: 500px;
+    }
+}
+@media(max-width: 575px){
+    .cart-modal .col-sm-8 {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .cart-modal .col-sm-2 {
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+    .cart-modal .modal-header .close {
+        margin: 0;
+        padding: 0;
+    }
+    .cart-modal .modal-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,92 @@
+.shop-search-wrapper {
+  position: relative;
+  max-width: 1000px;
+}
+.shop-searching .shop-search-wrapper #search-icon {
+  position: absolute;
+  top: 24px;
+  left: 32px;
+}
+.shop-searching .shop-search-wrapper #search-field {
+  position: relative;
+}
+.shop-searching .shop-search-wrapper #search-field input:focus {
+  box-shadow: none;
+  border-color: #EEEEF0;
+}
+.shop-search-wrapper .shop-search-dropdown {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.shop-search-wrapper .shop-search-dropdown button:focus {
+  box-shadow: none;
+}
+.shop-searching-box {
+  padding: 23px 57px;
+  background: #EEEEF0 0% 0% no-repeat padding-box;
+  border: 1px solid #EEEEF0;
+  border-radius: 10px;
+  opacity: 1;
+  height: auto;
+}
+.shop-searching-box{
+  /* padding-right: 20px;*/
+  padding-right: 220px; 
+}
+.shop-search-wrapper ul li{
+  list-style: none;
+}
+.shop-search-wrapper .shop-search-dropdown button::before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 44px;
+  background: #C7C7CE;
+  margin-right: 32px;
+}
+.shop-search-wrapper .shop-search-dropdown button span{
+  margin-right: 16px;
+}
+.shop-search-wrapper .shop-search-dropdown button::after {
+  content: "";
+  display: inline-block;
+  border: none;
+  position: absolute;
+  background: url(../../assets/images/down-arrow.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  right: 35px;
+}
+.shop-searching-box::placeholder {
+  color: #000;
+  opacity: 1;
+  /* Firefox */
+}
+.shop-searching-box:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000;
+}
+.shop-searching-box::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #000;
+}
+.shop-search-wrapper .shop-search-dropdown button {
+  background: transparent;
+  border: none;
+  color: black;
+  border-radius: 0;
+  padding: 14px 48px;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+@media(max-width: 767px){
+  .shop-searching-box {
+    padding: 13px 110px 13px 34px;
+  }
+}

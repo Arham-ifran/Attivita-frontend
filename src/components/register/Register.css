@@ -1,0 +1,76 @@
+.address-option{
+    border-radius: 10px;
+}
+.address-option .card-header{
+    min-height: 72px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 0.375rem 0.75rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+}
+.address-option .card-header button{
+    padding: 0;
+    color: #495057;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+.address-option .card-header button:after {
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+    content: "";
+    background: url(../../assets/images/arrow-down.svg);
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+    position: absolute;
+    right: 0;
+}
+.address-option .card{
+    border: 1px solid #EEEEF0;
+}
+.address-option .css-1s2u09g-control{
+    border: 1px solid #EEEEF0;
+}
+.email-wrapper{
+    padding: 40px;
+    width: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.email-wrapper h5{
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.email-wrapper img{
+    width: 150px;
+    margin-bottom: 40px;
+}
+.email-wrapper .main-btn{
+    width: 180px;
+    font-size: 18px;
+    padding: 15px 34px;
+    min-width: max-content;
+}
+@media(max-width: 991px){
+    .account-verification .email-wrapper{
+        width: 100%;
+    }
+}
+@media(max-width: 375px){
+    .account-verification .email-wrapper h5{
+        font-size: 16px;
+    }
+    .email-wrapper img {
+        width: 100px;
+    }
+}

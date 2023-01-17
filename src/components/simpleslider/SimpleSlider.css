@@ -1,0 +1,90 @@
+.product-slider .img-wrapper{
+    position: relative;
+}
+.product-slider .owl-carousel .owl-nav.disabled {
+    display: block;
+}
+.product-slider .owl-carousel .owl-nav button:focus{
+    outline: none !important;
+}
+.product-slider .owl-carousel .owl-nav{
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    top: 50%;
+}
+.product-slider .owl-carousel .owl-dots{
+    display: none;
+}
+.product-slider img{
+    width: 100%;
+    /* height: 400px; */
+    margin-bottom: 50px;
+    object-fit: cover;
+}
+.product-bottom-slider img{
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+    object-fit: cover;
+}
+.product-slider  .slick-prev:before,.product-slider  .slick-next:before {
+    color: #14061d;
+}
+.product-slider .slick-next {
+    right: -50px;
+    opacity: 0;
+}
+.product-slider .slick-prev {
+    left: -50px;
+    opacity: 0;
+}
+.feature-product-img :hover .slick-next {
+    right: -8px;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+}
+.feature-product-img :hover .slick-prev {
+    left: -8px;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+}
+@media (max-width:991px){
+    .product-slider img {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto 20px;
+    }
+    .product-bottom-slider img{
+        margin: 0 auto;
+    }
+    .product-bottom-slider .slick-slide{
+        width: 100px !important;
+    }
+    .product-bottom-slider .slick-track{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .product-detail-page .product-details{
+        margin-top: 40px;
+    }
+}
+@media(max-width: 767px){
+    .feature-product-img :hover .slick-prev {
+        left: 0%;
+    }
+    .feature-product-img :hover .slick-next {
+        right: 0%;
+    }
+}

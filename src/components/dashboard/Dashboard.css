@@ -1,0 +1,62 @@
+.dashboard-user-detail{
+    padding: 0.75rem 1.25rem;
+    background-color: #fff;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    border-radius: 4px;
+    background: #EEEEF0;
+    padding-bottom: 20px;
+}
+.dashboard-user-detail  .info-holder {
+    vertical-align: top;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    width: 100%;
+}
+.dashboard-user-detail .info-holder h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.dashboard-user-detail .info-holder p, .dashboard-user-detail .info-holder a {
+    font-size: 14px;
+    color: #15161D;
+}
+.dashboard-user-detail .info-holder a:hover {
+    color: #7D57CD;
+    transition: all 0.2s;
+    text-decoration: none;
+}
+.dashboard-user-detail h3{
+    border-bottom: 1px solid #9e9e9e6e;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.dashboard-user-detail .btn.main-btn{  
+    width: 100%;
+    padding: 10px 20px;
+}
+.userdashboard-page{
+    margin: 80px 0;
+}
+@media(max-width: 991px){
+    .o_portal_docs {
+        margin-bottom: 30px;
+    }
+    .dashboard-user-detail .btn.main-btn{
+        width: 200px;
+        min-width: max-content;
+    }
+}
+@media(max-width: 767px){
+    .userdashboard-page {
+        margin: 50px 0;
+    }
+}
+@media(max-width: 480px){
+    .dashboard-user-detail .btn.main-btn {
+        width: 100%;
+    }
+    .dashboard-user-detail h3, .userdashboard-page h3{
+        font-size: 20px;
+    }
+}

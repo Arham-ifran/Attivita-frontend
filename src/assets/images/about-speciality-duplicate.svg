@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="39.273" viewBox="0 0 48 39.273">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#30c0e2"/>
+      <stop offset="1" stop-color="#8956f3"/>
+    </linearGradient>
+  </defs>
+  <path id="Icon_awesome-window-restore" data-name="Icon awesome-window-restore" d="M48,3.682V25.773c0,2.033-2.016,3.682-4.5,3.682H39V13.5c0-3.383-3.366-6.136-7.5-6.136H12V3.682C12,1.649,14.016,0,16.5,0h27C45.984,0,48,1.649,48,3.682ZM36,13.5V35.591c0,2.033-2.016,3.682-4.5,3.682H4.5c-2.484,0-4.5-1.649-4.5-3.682V13.5c0-2.033,2.016-3.682,4.5-3.682h27C33.984,9.818,36,11.467,36,13.5Zm-6.375,2.148a1.041,1.041,0,0,0-1.125-.92H7.125A1.041,1.041,0,0,0,6,15.648v3.989H29.625Z" fill="url(#linear-gradient)"/>
+</svg>

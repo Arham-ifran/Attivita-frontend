@@ -1,0 +1,16 @@
+.shop-banner {
+    background: #14061D 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 1;
+    padding: 42px 0;
+    margin-bottom: 50px;
+  }
+  @media(max-width: 420px){
+    .shop-banner {
+      background-image: url('../../assets/images/shop-banner.png');
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      max-width: 100%;
+    }
+  }

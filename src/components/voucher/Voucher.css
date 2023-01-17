@@ -1,0 +1,90 @@
+.voucher-header-text a {
+    letter-spacing: 0px;
+    color: #30C0E2;
+    opacity: 1;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .voucher-header-text h2 {
+    letter-spacing: 0px;
+    color: #15161D;
+    opacity: 1;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .vouchers-search {
+    position: relative;
+  }
+  
+  .vouchers-search input {
+    padding: 23px 32px;
+    background: #EEEEF0 0% 0% no-repeat padding-box;
+    border: 1px solid #EEEEF0;
+    border-radius: 10px;
+    opacity: 1;
+    width: 450px;
+  }
+  
+  .vouchers-search button {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    padding: 19px;
+    height: 64px;
+  }
+  
+  .vouchers-search button:hover {
+    background-color: #D8D8D8;
+    border-radius: 10px;
+  }
+  .vouchers-copy-link-box {
+    padding: 23px 32px;
+    background: #EEEEF0 0% 0% no-repeat padding-box;
+    border: 1px solid #EEEEF0;
+    border-radius: 10px;
+    opacity: 1;
+    width: 450px;
+    background-color: #fff;
+  }
+  
+  .vouchers-copy-link {
+    position: relative;
+  }
+  
+  .vouchers-copy-link button {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    padding: 21px;
+    border: 1px solid #EEEEF0;
+    border-radius: 10px;
+    opacity: 1;
+  }
+  
+  .vouchers-copy-link button:hover {
+    background-color: #D8D8D8;
+    border-radius: 10px;
+  }
+  
+  .vouchers-copy-link button svg {
+    color: #b167fb;
+  }
+  .vouchers-copy-link button {
+    padding: 17px;
+  }
+.vouchers-search input,
+.vouchers-copy-link-box {
+  padding: 19px 30px;
+  height: auto;
+}
+.vouchers-search input{
+    padding-right: 40px;
+}
